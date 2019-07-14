@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8953148111,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches browser and navigate to www.amazon.com",
+            "match": {
+              "location": "LoginPageSteps.user_launches_browser_and_navigate_to_www_amazon_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5655728472,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on your amazon.com link",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_your_amazon_com_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Inline Table or Cucumber Tables",
+        "description": "",
+        "id": "login-page-fonctionality-verification;inline-table-or-cucumber-tables",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3646570,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "enters valid username and pw  and click on sign on",
+            "match": {
+              "location": "LoginPageSteps.enters_valid_username_and_pw_and_click_on_sign_on(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "Password"
+                ],
+                "line": 34
+              },
+              {
+                "cells": [
+                  "salesman123@gmail.com",
+                  "sales123"
+                ],
+                "line": 35
+              },
+              {
+                "cells": [
+                  "director@gmail.com",
+                  "director123"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "tester@gmail.com",
+                  "tester589"
+                ],
+                "line": 37
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1737582318,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user closes the application",
+            "match": {
+              "location": "LoginPageSteps.user_closes_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@Inline"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Fonctionality verification",
+    "description": "",
+    "id": "login-page-fonctionality-verification",
+    "keyword": "Feature",
+    "uri": "src/FeaturesFiles/Login.feature"
+  }
+]
